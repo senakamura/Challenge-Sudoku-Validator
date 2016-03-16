@@ -1,13 +1,21 @@
 {
   "name": "sudoku-validator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sudoku Validator Challenge",
   "main": "SudokuValidator.js",
   "scripts": {
     "test": "node ./tests/Sudoku.spec.js | tap-spec"
   },
   "author": "Sean Nakamura",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senakamura/Sudoku-Validator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/senakamura/Sudoku-Validator/issues"
+  },
+  "homepage": "https://github.com/senakamura/Sudoku-Validator#readme",
   "devDependencies": {
     "tap-spec": "^4.1.1",
     "tape": "^4.5.1"
