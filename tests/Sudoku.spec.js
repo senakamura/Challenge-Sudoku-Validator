@@ -12,7 +12,7 @@ Test('Sudoku-Validator', suite => {
     t.end();
   });
   Test('Second 3x3 Grid (9)', t => {
-    let sudoku = new SudokuValidator(Sudoku.nineTrue1());
+    let sudoku = new SudokuValidator(Sudoku.nineTrueTwo());
     t.ok(sudoku.validate(9), 'Should also be a valid Sudoku Grid');
     t.end();
   });
@@ -22,7 +22,7 @@ Test('Sudoku-Validator', suite => {
     t.end();
   });
   Test('Badder 3x3 Grid (9)', t => {
-    let sudoku = new SudokuValidator(Sudoku.nineFalse1());
+    let sudoku = new SudokuValidator(Sudoku.nineFalseTwo());
     t.notOk(sudoku.validate(9), 'Should also return false for invalid grid');
     t.end();
   });

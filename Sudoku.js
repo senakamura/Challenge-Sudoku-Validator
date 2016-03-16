@@ -15,7 +15,7 @@ module.exports = {
           ];
   },
 
-  nineTrue1 : function(){
+  nineTrueTwo : function(){
     return [
             [6,5,9, 1,7,4, 3,8,2],
             [8,1,2, 3,5,9, 6,4,7],
@@ -47,7 +47,7 @@ module.exports = {
           ];
   },
 
-  nineFalse1 : function (){
+  nineFalseTwo : function (){
     return [
             [5,3,4, 6,7,8, 9,1,2],
             [6,1,2, 1,0,5, 3,9,8],
