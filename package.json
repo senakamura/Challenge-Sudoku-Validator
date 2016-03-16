@@ -1,0 +1,15 @@
+{
+  "name": "sudoku-validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "SudokuValidator.js",
+  "scripts": {
+    "test": "node ./tests/Sudoku.spec.js | tap-spec"
+  },
+  "author": "Sean Nakamura",
+  "license": "ISC",
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.5.1"
+  }
+}
