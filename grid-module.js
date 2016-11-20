@@ -3,5 +3,9 @@
     // stub
   };
 
+  const Create = function (){
+    // stub
+  }
+
   window.Grid = Grid;
 }(window));
